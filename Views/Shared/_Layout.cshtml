@@ -1,0 +1,37 @@
+﻿@using EJ2MVCSampleBrowser.Helpers;
+@using Syncfusion.EJ2;
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Essential JS 2 for ASP.NET MVC - Web Mail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Essential JS 2 for ASP.NET MVC (Preview)" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="author" content="Syncfusion" />
+    <link rel="shortcut icon" href="~/favicon.ico" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/styles.css" rel="stylesheet" />
+    <link href="~/Content/Outlook Icons/style.css" rel="stylesheet" />
+    <link href="~/Content/css/outlook.css" rel="stylesheet" />
+	 <script type="text/javascript">
+        if (/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+            document.write('<script src="scripts/bluebird.min.js"><\/script>');
+        }
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="~/Scripts/ej2.min.js"></script>
+    <script src="~/Scripts/datasource.js"></script>
+
+
+</head>
+<body>
+    @RenderBody()
+    <script src="~/Scripts/readingpane.js"></script>
+    <script src="~/Scripts/newmail.js"></script>
+    <script src="~/Scripts/home.js"></script>
+    <script src="~/Scripts/index.js"></script>
+    @Html.EJS().ScriptManager()
+
+</body>
+</html>
