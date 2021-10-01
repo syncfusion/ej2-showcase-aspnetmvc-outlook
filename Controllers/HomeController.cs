@@ -16,7 +16,7 @@ namespace EJ2MVCSampleBrowser.Controllers
 
         public ActionResult Home()
         {
-            var replyTemplate = "<button id='replyAllList'>Reply All</button";
+            var replyTemplate = "<input type='text' tabindex='1' id='replyAllList' />";
             var movetoTemplate = "<input type='text' tabindex='1' id='moveToList' />";
             var categoryTemplate = "<input type='text' tabindex='1' id='categoryList' />";
             var moreTemplate = "<input type='tex' tabindex='1' id='moreList' />";
