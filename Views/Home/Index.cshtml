@@ -10,8 +10,7 @@
 </style>
 
 <div class='outlook-container'>
-    <div class='header navbar'>
-        <div class='container-fluid' style="font-size: 0; white-space: nowrap; line-height: normal">
+    @Html.EJS().AppBar("appbar").ColorMode(Syncfusion.EJ2.Navigations.AppBarColor.Dark).ContentTemplate(@<div style="font-size: 0; white-space: nowrap; line-height: normal">
             <div style="display: table-cell">
                 <div class='home-btn'>
                     <span class='ej-icon-Bento' style='font-size: 18px;'></span>
@@ -38,15 +37,14 @@
                 </div>
             </div>
             <div id="profile-div" class="header-right-pane">
-                <div style="right: 0px;position: absolute;top: 3px;pointer-events: none;margin-right: 5px;">
-                    <div class='logo logo-style1 profile-pic'></div>
+                <div style="pointer-events: none;">
+                    @Html.EJS().Button("btnLoginName").CssClass("btn-profile").Render()
                 </div>
-                <div style="margin-right: 44px; pointer-events: none;">
-                    @Html.EJS().Button("btnLoginName").CssClass("btn-profile").Render();
+                <div style="pointer-events: none;margin-right: 5px;">
+                    <span class="e-avatar e-avatar-large e-avatar-circle" style="background-image: url('../../content/images/1.png');height: 40px; width: 40px;"></span>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>).Render()
     <div id="content-area" style="height: 100%">
     </div>
 </div>
