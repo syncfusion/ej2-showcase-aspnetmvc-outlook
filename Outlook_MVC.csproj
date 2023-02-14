@@ -136,7 +136,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <Content Include="Content\css\outlook.css" />
-    <Content Include="Content\ej2\fabric.min.css" />
+    <Content Include="Content\fabric.css" />
     <Content Include="Content\images\1.png" />
     <Content Include="Content\images\3.png" />
     <Content Include="Content\images\bootstrap.png" />
@@ -269,7 +269,7 @@
     </Content>
     <Content Include="Scripts\crossroads.js" />
     <Content Include="Scripts\datasource.js" />
-    <Content Include="Scripts\ej2\ej2.min.js" />
+    <Content Include="Scripts\ej2.min.js" />
     <Content Include="Scripts\financial-data.js" />
     <Content Include="Scripts\fuse.min.js" />
     <Content Include="Scripts\hasher.min.js" />
