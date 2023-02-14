@@ -136,7 +136,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <Content Include="Content\css\outlook.css" />
-    <Content Include="Content\ej2\fabric.css" />
+    <Content Include="Content\ej2\fabric.min.css" />
     <Content Include="Content\images\1.png" />
     <Content Include="Content\images\3.png" />
     <Content Include="Content\images\bootstrap.png" />
@@ -256,7 +256,6 @@
     <Content Include="Content\images\Medium-36px-spin.gif" />
     <Content Include="Content\Outlook Icons\fonts\icomoon.svg" />
     <Content Include="Content\Outlook Icons\style.css" />
-    <Content Include="Content\styles.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bluebird.min.js" />
@@ -270,7 +269,6 @@
     </Content>
     <Content Include="Scripts\crossroads.js" />
     <Content Include="Scripts\datasource.js" />
-    <Content Include="Scripts\ej2.min.js" />
     <Content Include="Scripts\ej2\ej2.min.js" />
     <Content Include="Scripts\financial-data.js" />
     <Content Include="Scripts\fuse.min.js" />
@@ -314,7 +312,6 @@
     <Content Include="Views\Home\Readingpane.cshtml" />
     <Content Include="Views\Home\Home.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
-    <Content Include="Scripts\ej2.min.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
@@ -324,9 +321,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="toolbarItem\" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="Scripts\ej2\ej2.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
