@@ -1677,10 +1677,9 @@ html, body {
 #profile-div {
     display: flex;
 }
-/* Overriding the default positon to achive exact alignment */
+/* Overriding the default positon to achieve exact alignment */
 #list-pane-div{
     position: relative;
-    /*height: 100%;*/
 }
 #reading-pane-div {
     position: relative;
