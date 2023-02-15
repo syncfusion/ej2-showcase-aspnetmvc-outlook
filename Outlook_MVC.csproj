@@ -136,25 +136,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <Content Include="Content\css\outlook.css" />
-    <Content Include="Content\ej2\bootstrap-dark.css" />
-    <Content Include="Content\ej2\bootstrap.css" />
-    <Content Include="Content\ej2\bootstrap4.css" />
-    <Content Include="Content\ej2\bootstrap5-dark.css" />
-    <Content Include="Content\ej2\bootstrap5.css" />
-    <Content Include="Content\ej2\compatibility\bootstrap.css" />
-    <Content Include="Content\ej2\compatibility\bootstrap4.css" />
-    <Content Include="Content\ej2\compatibility\fabric.css" />
-    <Content Include="Content\ej2\compatibility\highcontrast.css" />
-    <Content Include="Content\ej2\compatibility\material.css" />
-    <Content Include="Content\ej2\fabric-dark.css" />
-    <Content Include="Content\ej2\fabric.css" />
-    <Content Include="Content\ej2\fluent-dark.css" />
-    <Content Include="Content\ej2\fluent.css" />
-    <Content Include="Content\ej2\highcontrast.css" />
-    <Content Include="Content\ej2\material-dark.css" />
-    <Content Include="Content\ej2\material.css" />
-    <Content Include="Content\ej2\tailwind-dark.css" />
-    <Content Include="Content\ej2\tailwind.css" />
+    <Content Include="Content\fabric.css" />
     <Content Include="Content\images\1.png" />
     <Content Include="Content\images\3.png" />
     <Content Include="Content\images\bootstrap.png" />
@@ -274,7 +256,6 @@
     <Content Include="Content\images\Medium-36px-spin.gif" />
     <Content Include="Content\Outlook Icons\fonts\icomoon.svg" />
     <Content Include="Content\Outlook Icons\style.css" />
-    <Content Include="Content\styles.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bluebird.min.js" />
@@ -289,7 +270,6 @@
     <Content Include="Scripts\crossroads.js" />
     <Content Include="Scripts\datasource.js" />
     <Content Include="Scripts\ej2.min.js" />
-    <Content Include="Scripts\ej2\ej2.min.js" />
     <Content Include="Scripts\financial-data.js" />
     <Content Include="Scripts\fuse.min.js" />
     <Content Include="Scripts\hasher.min.js" />
@@ -327,17 +307,11 @@
     <Content Include="Content\Outlook Icons\fonts\icomoon.eot" />
     <Content Include="Content\Outlook Icons\fonts\icomoon.ttf" />
     <Content Include="Content\Outlook Icons\fonts\icomoon.woff" />
-    <Content Include="Content\ej2\compatibility\material.scss" />
-    <Content Include="Content\ej2\compatibility\highcontrast.scss" />
-    <Content Include="Content\ej2\compatibility\fabric.scss" />
-    <Content Include="Content\ej2\compatibility\bootstrap4.scss" />
-    <Content Include="Content\ej2\compatibility\bootstrap.scss" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\Newmail.cshtml" />
     <Content Include="Views\Home\Readingpane.cshtml" />
     <Content Include="Views\Home\Home.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
-    <Content Include="Scripts\ej2.min.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
@@ -347,9 +321,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="toolbarItem\" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="Scripts\ej2\ej2.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
