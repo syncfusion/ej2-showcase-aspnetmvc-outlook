@@ -1,9 +1,4 @@
-.vs/
-bin/
-obj/
-packages/
-.nuget/
-ej2aspmvc/
-package-lock.json
-node_modules/
-*.user
+**/.vs/
+.git/
+**/bin/
+**/obj
