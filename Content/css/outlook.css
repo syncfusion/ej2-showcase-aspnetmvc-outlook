@@ -1684,6 +1684,7 @@ html, body {
 #reading-pane-div {
     position: relative;
     height: 100%;
+    left: auto;
 }
 .msg-top-margin {
     top: 40px;

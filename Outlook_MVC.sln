@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outlook_MVC", "Outlook_MVC.csproj", "{9D06B672-AC99-4A11-8104-B4C0D5703B37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outlook_MVC", "Outlook_MVC.csproj", "{55F33543-DBE7-4000-A8EA-F5F61105FE5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9D06B672-AC99-4A11-8104-B4C0D5703B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D06B672-AC99-4A11-8104-B4C0D5703B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D06B672-AC99-4A11-8104-B4C0D5703B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D06B672-AC99-4A11-8104-B4C0D5703B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F33543-DBE7-4000-A8EA-F5F61105FE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F33543-DBE7-4000-A8EA-F5F61105FE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F33543-DBE7-4000-A8EA-F5F61105FE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F33543-DBE7-4000-A8EA-F5F61105FE5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {32546CB8-075D-420F-A588-C38DA7319D94}
+		SolutionGuid = {BE1E1082-6B00-486A-90D4-057BD713CB31}
 	EndGlobalSection
 EndGlobal
