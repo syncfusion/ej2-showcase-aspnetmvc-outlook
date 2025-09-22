@@ -1,6 +1,6 @@
 [![.NET](https://github.com/syncfusion/ej2-showcase-aspnetmvc-outlook/actions/workflows/dotnet.yml/badge.svg)](https://github.com/syncfusion/ej2-showcase-aspnetmvc-outlook/actions/workflows/dotnet.yml)
 
-# Syncfusion® ASP.NET MVC - Outlook Showcase App
+# Essential JS 2® for ASP.NET MVC - Outlook
 
 Outlook like demo application with similar user interface to manage your mailbox.
  
